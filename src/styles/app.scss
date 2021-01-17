@@ -1,0 +1,72 @@
+html,
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  background-color: #f4f6f8;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #d8d8d8;
+  font-weight: 600;
+  transition: all .5s;
+  &:hover {
+    background: #c2c2c2;
+    cursor: pointer;
+  }
+  &:focus{
+      outline: none;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 100px 50px;
+  grid-template-columns: auto auto;
+}
+
+.card {
+  margin: 15px 0 15px 0;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner {
+    padding: 20px;
+  background-color: #ddffdd;
+  border-left: 6px solid #4CAF50;
+}
+
+.input-container {
+  position: relative;
+}
+.input {
+  height: 30px;
+  margin: 0 0 10px 0;
+  padding-left: 40px;
+  width: 95%;
+  font-size: large;
+  font-family: "Ubuntu", sans-serif;
+
+  &:focus{
+    outline-width: 0;
+  }
+}
+.input-icon {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+}
