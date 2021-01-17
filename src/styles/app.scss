@@ -22,16 +22,16 @@ body {
 }
 
 .container {
-  width: 80%;
   height: 80%;
-  padding: 20px;
   margin: auto;
+  padding: 20px;
 }
 
 .grid-container {
   display: grid;
-  grid-gap: 100px 50px;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
 }
 
 .card {
@@ -43,7 +43,7 @@ body {
 }
 
 .banner {
-    padding: 20px;
+  padding: 20px;
   background-color: #ddffdd;
   border-left: 6px solid #4CAF50;
 }
@@ -55,7 +55,7 @@ body {
   height: 30px;
   margin: 0 0 10px 0;
   padding-left: 40px;
-  width: 95%;
+  width: 80%;
   font-size: large;
   font-family: "Ubuntu", sans-serif;
 
@@ -64,7 +64,7 @@ body {
   }
 }
 .input-icon {
-  position: absolute;
+  position: absolute; 
   top: 6px;
   left: 8px;
   width: 24px;
